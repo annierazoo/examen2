@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;700;800&display=swap');
+
+:root{
+	--color-contenido: #898989;
+	--color-negro: #282d33;
+	--color-footer: #30363d;
+	--color-gris: #f5f5f5;
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #f9f9f9;
+	width: 100%;
+	top:0;
+}
+footer{
+	background-color: #30363d;
+	padding: 30px;
+	color: #999;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p{
+	margin-bottom: 0;
+}
+
+#hero{
+	background-image:url("../img/home-slide.jpg");
+	background-position:center;
+	background-size:cover;
+	padding:20% 0% 10% 0%;
+}
+
+h1{
+	font-weight:bolder;
+	color:black;
+	font-size:80px;
+}
+.btn-primary{
+	background-color: var(--color-footer);
+	border-color:transparent;
+	padding:2% 5% 2% 5%;
+	border-radius:30px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+#ctaproducts{
+	background-image: url("../img/product-parallax.jpg");
+	padding:10% 0% 10% 0%;
+	color:white;
+	text-align:center;
+	background-position:center;
+	background-size:cover;
+}
+#ctaproducts h2{
+	font-weight:bolder;
+	font-size:60px;
+	
+}
+#infoproducto{
+	padding:5%;
+	color:black;
+}
+.parallax {
+	
+	height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img_parallax.jpg");
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+h2{
+	font-weight:bolder;
+	font-size:60px;
+	
+	
+}
+#infoproducto a{
+	font-weight:bold;
+	text-transform: uppercase;
+}
+#ctaflexibility{
+	padding:5%;
+	background-image:url("../img/product-parallax-2.jpg");
+	background-position: center;
+	background-size:cover;
+	color:white;
+}
+#ctaflexibility a{
+	color:white;
+	font-weight:bold;
+	text-transform: uppercase;
+}
